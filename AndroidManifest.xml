@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.pstreets.opengl.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".AndroidOpenGLDemo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HelloWorld" android:label="@string/activity_helloworld">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    <activity android:name=".DrawPoint" android:label="@string/activity_drawpoint">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    <activity android:name=".DrawLine" android:label="@string/activity_drawline">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	     <activity android:name=".DrawTriangle" android:label="@string/activity_drawtriangle">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    <activity android:name=".DrawIcosahedron" android:label="@string/activity_drawicosahedron">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    <activity android:name=".DrawSolarSystem" android:label="@string/activity_drawsolarsystem">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    <activity android:name=".DrawSphere" android:label="@string/activity_drawsphere">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    <activity android:name=".Lighting" android:label="@string/activity_lighting">
+	     	<intent-filter>
+	                <action android:name="android.intent.action.MAIN" />
+	                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+	        </intent-filter>
+	    </activity>
+	    
+	    
+
+    </application>
+</manifest>

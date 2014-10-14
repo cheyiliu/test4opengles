@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidOpenGLDemo!</string>
+    <string name="app_name">OpenGL ES Demos</string>
+    <string name="activity_helloworld">Hello World</string>
+    <string name="activity_drawpoint">Draw Point</string>
+    <string name="activity_drawicosahedron">Draw Icosahedron</string>
+    <string name="activity_drawline">Draw Line</string>
+    <string name="activity_drawtriangle">Draw Triangle</string>
+    <string name="activity_drawsolarsystem">Draw Solar Sytem</string>
+    <string name="activity_drawsphere">Draw Sphere</string>
+    <string name="activity_lighting">Lighting</string>
+</resources>
